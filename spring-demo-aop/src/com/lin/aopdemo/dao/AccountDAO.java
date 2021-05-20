@@ -12,4 +12,10 @@ public class AccountDAO {
 		System.out.println(getClass() + ": DOING MY DB WORK: ADDING AN ACCOUNT" + theAccount);
 		
 	}
+	
+    public void addAccount(Account theAccount, boolean isTrue) {
+		
+		System.out.println(getClass() + ": DOING MY DB WORK: ADDING AN ACCOUNT" + theAccount);
+		
+	}
 }

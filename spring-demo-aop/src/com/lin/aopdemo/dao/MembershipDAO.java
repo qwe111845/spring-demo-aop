@@ -12,6 +12,13 @@ public class MembershipDAO {
 	}
 
 	public void add() {
-		this.addAccount();		
+		this.addAccount();
+		this.goAhead();
+	}
+	
+	private void goAhead() {
+		
+		System.out.println(getClass() + ":Go Go Go");
+		
 	}
 }

@@ -18,4 +18,10 @@ public class AccountDAO {
 		System.out.println(getClass() + ": DOING MY DB WORK: ADDING AN ACCOUNT" + theAccount);
 		
 	}
+    
+    public void doSomething() {
+		
+		System.out.println(getClass() + ": DOING SOMETHING");
+		
+	}
 }
